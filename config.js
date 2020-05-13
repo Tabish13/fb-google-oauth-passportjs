@@ -21,13 +21,13 @@ production: {
     }
 },
 fbapp: {
-    CLIENT_ID: "744961065707288",//+"&target=_top",
-    CLIENT_SECRET: "378de4e2cedfafa7dd257d6649258e5b",
+    CLIENT_ID: "ID",//+"&target=_top",
+    CLIENT_SECRET: "SECRET",
     CALLBACK_URL: "http://localhost:3000/auth/facebook/callback"
 },
 googleapp:{
-    clientID: "973465643843-nttb5ho12k3gv3db3v99t5c9iup8tbq6.apps.googleusercontent.com",
-    clientSecret: "po0bIsUqHwtOhrCVlwcwiptE",
+    clientID: "ID.apps.googleusercontent.com",
+    clientSecret: "SECRET",
     callbackURL: "http://localhost:3000/auth/google/callback"
 },
 secretkey : "project"
