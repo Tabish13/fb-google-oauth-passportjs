@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Welcome to <%= title %></h2>
+<% if (typeof error != "undefined") { %>
+  <h3 style="color: red"><%= error %></h3>
+<% } %>
+<form method="POST" action="http://localhost:3000/checkauth">
+  User name:<br>
+  <input type="text" name="username" placeholder="USERNAME">
+  <br>
+  Password:<br>
+  <input type="password" name="password" placeholder="PASSWORD">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<!-- <p>If you click the "Submit" button, the form-data will be sent to a page called "/checkauth".</p> -->
+
+</body>
+</html>
